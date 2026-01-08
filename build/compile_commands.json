@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/bsoft/Kaleidoscope/build",
+  "command": "/usr/bin/clang++  -isystem /usr/lib/llvm-18/include -g -std=gnu++23   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/Kaleidoscope.dir/src/lexer.cpp.o -c /home/bsoft/Kaleidoscope/src/lexer.cpp",
+  "file": "/home/bsoft/Kaleidoscope/src/lexer.cpp",
+  "output": "CMakeFiles/Kaleidoscope.dir/src/lexer.cpp.o"
+},
+{
+  "directory": "/home/bsoft/Kaleidoscope/build",
+  "command": "/usr/bin/clang++  -isystem /usr/lib/llvm-18/include -g -std=gnu++23   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/Kaleidoscope.dir/src/main.cpp.o -c /home/bsoft/Kaleidoscope/src/main.cpp",
+  "file": "/home/bsoft/Kaleidoscope/src/main.cpp",
+  "output": "CMakeFiles/Kaleidoscope.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/bsoft/Kaleidoscope/build",
+  "command": "/usr/bin/clang++  -isystem /usr/lib/llvm-18/include -g -std=gnu++23   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/Kaleidoscope.dir/src/parser.cpp.o -c /home/bsoft/Kaleidoscope/src/parser.cpp",
+  "file": "/home/bsoft/Kaleidoscope/src/parser.cpp",
+  "output": "CMakeFiles/Kaleidoscope.dir/src/parser.cpp.o"
+}
+]

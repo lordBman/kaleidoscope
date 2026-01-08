@@ -1,0 +1,7 @@
+/home/bsoft/Kaleidoscope/build/CMakeFiles/intrinsics_gen.dir
+/home/bsoft/Kaleidoscope/build/CMakeFiles/omp_gen.dir
+/home/bsoft/Kaleidoscope/build/CMakeFiles/acc_gen.dir
+/home/bsoft/Kaleidoscope/build/CMakeFiles/RISCVTargetParserTableGen.dir
+/home/bsoft/Kaleidoscope/build/CMakeFiles/Kaleidoscope.dir
+/home/bsoft/Kaleidoscope/build/CMakeFiles/edit_cache.dir
+/home/bsoft/Kaleidoscope/build/CMakeFiles/rebuild_cache.dir
