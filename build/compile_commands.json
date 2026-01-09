@@ -1,6 +1,12 @@
 [
 {
   "directory": "/home/bsoft/Kaleidoscope/build",
+  "command": "/usr/bin/clang++  -isystem /usr/lib/llvm-18/include -g -std=gnu++23   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/Kaleidoscope.dir/src/ash.cpp.o -c /home/bsoft/Kaleidoscope/src/ash.cpp",
+  "file": "/home/bsoft/Kaleidoscope/src/ash.cpp",
+  "output": "CMakeFiles/Kaleidoscope.dir/src/ash.cpp.o"
+},
+{
+  "directory": "/home/bsoft/Kaleidoscope/build",
   "command": "/usr/bin/clang++  -isystem /usr/lib/llvm-18/include -g -std=gnu++23   -D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/Kaleidoscope.dir/src/lexer.cpp.o -c /home/bsoft/Kaleidoscope/src/lexer.cpp",
   "file": "/home/bsoft/Kaleidoscope/src/lexer.cpp",
   "output": "CMakeFiles/Kaleidoscope.dir/src/lexer.cpp.o"

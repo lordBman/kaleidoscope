@@ -69,10 +69,24 @@ include CMakeFiles/Kaleidoscope.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Kaleidoscope.dir/flags.make
 
+CMakeFiles/Kaleidoscope.dir/src/ash.cpp.o: CMakeFiles/Kaleidoscope.dir/flags.make
+CMakeFiles/Kaleidoscope.dir/src/ash.cpp.o: /home/bsoft/Kaleidoscope/src/ash.cpp
+CMakeFiles/Kaleidoscope.dir/src/ash.cpp.o: CMakeFiles/Kaleidoscope.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bsoft/Kaleidoscope/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Kaleidoscope.dir/src/ash.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Kaleidoscope.dir/src/ash.cpp.o -MF CMakeFiles/Kaleidoscope.dir/src/ash.cpp.o.d -o CMakeFiles/Kaleidoscope.dir/src/ash.cpp.o -c /home/bsoft/Kaleidoscope/src/ash.cpp
+
+CMakeFiles/Kaleidoscope.dir/src/ash.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Kaleidoscope.dir/src/ash.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bsoft/Kaleidoscope/src/ash.cpp > CMakeFiles/Kaleidoscope.dir/src/ash.cpp.i
+
+CMakeFiles/Kaleidoscope.dir/src/ash.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Kaleidoscope.dir/src/ash.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bsoft/Kaleidoscope/src/ash.cpp -o CMakeFiles/Kaleidoscope.dir/src/ash.cpp.s
+
 CMakeFiles/Kaleidoscope.dir/src/lexer.cpp.o: CMakeFiles/Kaleidoscope.dir/flags.make
 CMakeFiles/Kaleidoscope.dir/src/lexer.cpp.o: /home/bsoft/Kaleidoscope/src/lexer.cpp
 CMakeFiles/Kaleidoscope.dir/src/lexer.cpp.o: CMakeFiles/Kaleidoscope.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bsoft/Kaleidoscope/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Kaleidoscope.dir/src/lexer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bsoft/Kaleidoscope/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Kaleidoscope.dir/src/lexer.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Kaleidoscope.dir/src/lexer.cpp.o -MF CMakeFiles/Kaleidoscope.dir/src/lexer.cpp.o.d -o CMakeFiles/Kaleidoscope.dir/src/lexer.cpp.o -c /home/bsoft/Kaleidoscope/src/lexer.cpp
 
 CMakeFiles/Kaleidoscope.dir/src/lexer.cpp.i: cmake_force
@@ -86,7 +100,7 @@ CMakeFiles/Kaleidoscope.dir/src/lexer.cpp.s: cmake_force
 CMakeFiles/Kaleidoscope.dir/src/main.cpp.o: CMakeFiles/Kaleidoscope.dir/flags.make
 CMakeFiles/Kaleidoscope.dir/src/main.cpp.o: /home/bsoft/Kaleidoscope/src/main.cpp
 CMakeFiles/Kaleidoscope.dir/src/main.cpp.o: CMakeFiles/Kaleidoscope.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bsoft/Kaleidoscope/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Kaleidoscope.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bsoft/Kaleidoscope/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Kaleidoscope.dir/src/main.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Kaleidoscope.dir/src/main.cpp.o -MF CMakeFiles/Kaleidoscope.dir/src/main.cpp.o.d -o CMakeFiles/Kaleidoscope.dir/src/main.cpp.o -c /home/bsoft/Kaleidoscope/src/main.cpp
 
 CMakeFiles/Kaleidoscope.dir/src/main.cpp.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/Kaleidoscope.dir/src/main.cpp.s: cmake_force
 CMakeFiles/Kaleidoscope.dir/src/parser.cpp.o: CMakeFiles/Kaleidoscope.dir/flags.make
 CMakeFiles/Kaleidoscope.dir/src/parser.cpp.o: /home/bsoft/Kaleidoscope/src/parser.cpp
 CMakeFiles/Kaleidoscope.dir/src/parser.cpp.o: CMakeFiles/Kaleidoscope.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bsoft/Kaleidoscope/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Kaleidoscope.dir/src/parser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/bsoft/Kaleidoscope/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Kaleidoscope.dir/src/parser.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Kaleidoscope.dir/src/parser.cpp.o -MF CMakeFiles/Kaleidoscope.dir/src/parser.cpp.o.d -o CMakeFiles/Kaleidoscope.dir/src/parser.cpp.o -c /home/bsoft/Kaleidoscope/src/parser.cpp
 
 CMakeFiles/Kaleidoscope.dir/src/parser.cpp.i: cmake_force
@@ -113,6 +127,7 @@ CMakeFiles/Kaleidoscope.dir/src/parser.cpp.s: cmake_force
 
 # Object files for target Kaleidoscope
 Kaleidoscope_OBJECTS = \
+"CMakeFiles/Kaleidoscope.dir/src/ash.cpp.o" \
 "CMakeFiles/Kaleidoscope.dir/src/lexer.cpp.o" \
 "CMakeFiles/Kaleidoscope.dir/src/main.cpp.o" \
 "CMakeFiles/Kaleidoscope.dir/src/parser.cpp.o"
@@ -120,6 +135,7 @@ Kaleidoscope_OBJECTS = \
 # External object files for target Kaleidoscope
 Kaleidoscope_EXTERNAL_OBJECTS =
 
+Kaleidoscope: CMakeFiles/Kaleidoscope.dir/src/ash.cpp.o
 Kaleidoscope: CMakeFiles/Kaleidoscope.dir/src/lexer.cpp.o
 Kaleidoscope: CMakeFiles/Kaleidoscope.dir/src/main.cpp.o
 Kaleidoscope: CMakeFiles/Kaleidoscope.dir/src/parser.cpp.o
@@ -154,7 +170,7 @@ Kaleidoscope: /usr/lib/x86_64-linux-gnu/libz.so
 Kaleidoscope: /usr/lib/x86_64-linux-gnu/libzstd.so
 Kaleidoscope: /usr/lib/x86_64-linux-gnu/libtinfo.so
 Kaleidoscope: CMakeFiles/Kaleidoscope.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/bsoft/Kaleidoscope/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Kaleidoscope"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/bsoft/Kaleidoscope/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Kaleidoscope"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Kaleidoscope.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

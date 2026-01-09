@@ -31,6 +31,7 @@
 
                 public:
                     explicit NumberExprAST(const double val): val(val){}
+                    llvm::Value *codegen() override;
             };
 
             // VariableExprAST - Expression class for referencing a variable like "a".
@@ -39,6 +40,7 @@
 
                 public:
                     explicit VariableExprAST(std::string &name): name(std::move(name)){}
+                    llvm::Value *codegen() override;
             };
 
             // BinaryExprAST - Expression class for binary operator
@@ -48,6 +50,7 @@
 
                 public:
                     BinaryExprAST(const char op, std::unique_ptr<ExprAST> lhs, std::unique_ptr<ExprAST> rhs): op(op), lhs(std::move(lhs)), rhs(std::move(rhs)){}
+                    llvm::Value *codegen() override;
             };
 
             // CallExprAst - Expression class for function calls.

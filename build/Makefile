@@ -181,6 +181,30 @@ Kaleidoscope/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Kaleidoscope.dir/build.make CMakeFiles/Kaleidoscope.dir/build
 .PHONY : Kaleidoscope/fast
 
+src/ash.o: src/ash.cpp.o
+.PHONY : src/ash.o
+
+# target to build an object file
+src/ash.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Kaleidoscope.dir/build.make CMakeFiles/Kaleidoscope.dir/src/ash.cpp.o
+.PHONY : src/ash.cpp.o
+
+src/ash.i: src/ash.cpp.i
+.PHONY : src/ash.i
+
+# target to preprocess a source file
+src/ash.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Kaleidoscope.dir/build.make CMakeFiles/Kaleidoscope.dir/src/ash.cpp.i
+.PHONY : src/ash.cpp.i
+
+src/ash.s: src/ash.cpp.s
+.PHONY : src/ash.s
+
+# target to generate assembly for a file
+src/ash.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Kaleidoscope.dir/build.make CMakeFiles/Kaleidoscope.dir/src/ash.cpp.s
+.PHONY : src/ash.cpp.s
+
 src/lexer.o: src/lexer.cpp.o
 .PHONY : src/lexer.o
 
@@ -266,6 +290,9 @@ help:
 	@echo "... intrinsics_gen"
 	@echo "... omp_gen"
 	@echo "... Kaleidoscope"
+	@echo "... src/ash.o"
+	@echo "... src/ash.i"
+	@echo "... src/ash.s"
 	@echo "... src/lexer.o"
 	@echo "... src/lexer.i"
 	@echo "... src/lexer.s"

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Kaleidoscope.dir/src/ash.cpp.o"
+  "CMakeFiles/Kaleidoscope.dir/src/ash.cpp.o.d"
   "CMakeFiles/Kaleidoscope.dir/src/lexer.cpp.o"
   "CMakeFiles/Kaleidoscope.dir/src/lexer.cpp.o.d"
   "CMakeFiles/Kaleidoscope.dir/src/main.cpp.o"
